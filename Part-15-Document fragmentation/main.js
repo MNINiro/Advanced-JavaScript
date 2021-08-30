@@ -22,11 +22,11 @@ var newSec = document.getElementById("secID") //Initial condition. nothing in th
 
 
 //Ex-3- Creating new element node then appending into existing element
-var nENode = document.createElement("h2"); //Just created
+var h2Node = document.createElement("h2"); //Just created
 var targetNode = document.getElementById("divID"); // will be appended in div
 
 //Appending new child element h2 in div
-targetNode.appendChild(nENode); //Appended h2
+targetNode.appendChild(h2Node); //Appended h2
 console.log(targetNode);
 
 //Ex-4-creating and appending at a time
@@ -39,19 +39,19 @@ targetNode.appendChild(document.createTextNode("I am a new text"));
 targetNode.appendChild(document.createComment("I am a new comment"));
 
 // Ex-7-Creating and Appending Element Node Text Node and Comment Node Together
-var newNode = document.createElement("h4");
+var h4Node = document.createElement("h4");
 var newText = document.createTextNode("I have been inserted");
 var newComment = document.createComment("Example of appending all types of elements");
 
 //appending text node into new element
-newNode.appendChild(newText)
-console.log(newNode);
+h4Node.appendChild(newText)
+console.log(h4Node);
 
 //appending comment node into new element
-newNode.appendChild(newComment);
+h4Node.appendChild(newComment);
 
 //appending new element into div node
-targetNode.appendChild(newNode);
+targetNode.appendChild(h4Node);
 console.log(targetNode);
 
 //Appending div node into section
