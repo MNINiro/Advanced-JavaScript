@@ -7,18 +7,18 @@ console.log(r1);
 var r2 = document.body.getElementsByClassName('geek find');
 console.log(r2);
 
-//Ex-3
+//Ex-3-Class within show id
 var getShow = document.getElementById("show");
 var r3 = getShow.getElementsByClassName("geek")
 console.log(r3);
 
-//Ex-4
-var r4 = document.getElementById("display").getElementsByClassName("geek")
+//Ex-4-Alternate way
+var r4 = document.getElementById("show").getElementsByClassName("geek")
 console.log(r4);
 
 //EX-5-Length
 var ln = document.getElementsByClassName("geek").length;
-console.log(ln);
+console.log("length: ",ln);
 
 //Ex-5-With loop
 for (let i=0; i<ln; i++){

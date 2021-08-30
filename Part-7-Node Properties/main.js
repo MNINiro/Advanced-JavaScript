@@ -36,7 +36,7 @@ document.write('nodeName: ',txt.firstChild.nextSibling.nodeName,'<br>');
 document.write('nodeValue: ',txt.firstChild.nextSibling.nodeValue,'<br>');
 document.write('nodeType: ',txt.firstChild.nextSibling.nodeType,'<br>','<br>');
 
-// console.log(txt.firstChild.nextSibling.nodeName);
+console.log(txt.firstChild.nextSibling.nodeName);
 console.log(txt.firstChild.nextSibling.nodeValue);
 console.log(txt.firstChild.nextSibling.nodeType);
 

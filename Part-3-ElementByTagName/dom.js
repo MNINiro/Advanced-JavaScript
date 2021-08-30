@@ -23,12 +23,12 @@ console.log(result5)
 var result6 = document.getElementsByTagName("*"); //All tags
 console.log(result6)
 
-//Ex-7
+// Ex-7
 var result7 = document.body.getElementsByTagName("*"); //All tags within the body tag
 console.log(result7)
 
 //Ex-8
-var getSpan = document.getElementById("geek1"); //It will return all of the ID named "geek"
+var getSpan = document.getElementById("geek1"); //It will return all of the ID named "geek1"
 var r1 = getSpan.getElementsByTagName("span") // It will return only span tag of geek id
 console.log(getSpan);
 console.log(r1);
