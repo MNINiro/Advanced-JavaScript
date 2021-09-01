@@ -3,7 +3,7 @@ console.log(document.domain);
 console.log(document.doctype);
 
 console.log(document.title);
-document.title = "Properties"; //changing title
+document.title = "Properties"; //changing original title
 console.log(document.title);
 
 console.log(document.documentElement);

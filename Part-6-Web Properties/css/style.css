@@ -1,40 +1,55 @@
-.m{
+.m {
     width: 200px;
-    float: left; /* <p> tag elements are setting beside the picture but it is supposed to be at the bottom of the picture. So, following <p> class will be used to fix the issue */
-}
-.n{
-    width: 200px;
-    float:right;
-    margin-bottom: 20px;
-}
-p{
-    margin-top: 10px;
-    clear:both; /* to move text under both of the photos */
-    color: #0717fd;
-    background: rgb(238, 234, 234);
-    font-size:x-large;
-    font-style: italic;    
+    float: left;
+    /* <p>tag elements are setting beside the picture but it is supposed to be at the bottom of the picture. So, 
+    following <p>class will be used to fix the issue */
 }
 
-.box{ /* All boxes common properties */
+.n {
+    width: 200px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 10px;
+    clear: both;
+    /* to move text under both of the photos */
+    color: #0717fd;
+    background: rgb(238, 234, 234);
+    font-size: medium;
+    font-style: italic;
+}
+
+.box {
+    /* All boxes common properties */
     height: 200px;
     background: #333;
     width: 25%;
-    float: left;/* 4 boxex will placed side by side*/
+    float: left;
+    /* 4 boxex will placed side by side*/
 }
-.box1{ /* Individual box property */
+
+.box1 {
+    /* Individual box property */
     height: 200px;
     background: red;
 }
-.box2{ /* Individual box property */
+
+.box2 {
+    /* Individual box property */
     height: 200px;
     background: yellow;
 }
-.box3{ /* Individual box property */
+
+.box3 {
+    /* Individual box property */
     height: 200px;
     background: orange;
 }
-.box4{ /* Individual box property */
+
+.box4 {
+    /* Individual box property */
     height: 200px;
     background: blue;
 }

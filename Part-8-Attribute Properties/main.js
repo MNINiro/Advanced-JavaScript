@@ -6,11 +6,11 @@ var r1 = document.getElementById("myID");
 document.write(r1.attributes[0].nodeName,' = '); // showing first attributes name
 document.write(r1.attributes[0].nodeValue,br); // showing first attributes value
 
-document.write(r1.attributes[1].nodeName,' = '); // showing second attributes name
-document.write(r1.attributes[1].nodeValue,br); // showing second attributes value
+//in one line
+document.write(r1.attributes[1].nodeName,' = ',r1.attributes[1].nodeValue,br); // showing second attributes name and value
 
 ln = r1.attributes.length;
-document.write('Number of attributes :',ln,br,br); // showing first attributes name
+document.write('Number of attributes :',ln,br,br); // showing all attributes size
 
 //Alternate way using loop
 for(let i=0; i<ln; i++){
