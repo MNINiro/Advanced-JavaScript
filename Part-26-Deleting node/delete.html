@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" 
+          content="ie=edge">
+    
+    <title>Deleting node</title>
+</head>
+  
+<body>
+    <ul>
+        <li>Get Up in Morning</li>
+        <li>Do some exercise</li>
+        <li>Get Ready for school</li>
+        <li>Study Daily</li>
+        <li>Do homework</li>
+    </ul>
+
+    <input id="btn" type="button" value="Remove Childrens">
+</body>
+
+<script>
+    function deleteChild() {
+        var e = document.querySelector("ul");
+        
+        //e.firstElementChild can be used.
+        var child = e.lastElementChild; 
+        while (child) {
+            e.removeChild(child);
+            child = e.lastElementChild;
+        }
+    }
+    var btn = document.getElementById("btn").onclick = function() {
+        deleteChild();
+    }
+</script>
+  
+</html>
