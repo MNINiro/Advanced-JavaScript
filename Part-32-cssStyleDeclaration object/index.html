@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Style declaration</title>
 </head>
 <body>
+    <!--CSS property-->
+    <p id="myp" style="background-color: blue; color: burlywood;">Paragraph</p>
+
+    <!--for inline-->
+    <script>
+        //DOM property
+        var p = document.getElementById("myp");
+        
+        var bg = p.style.backgroundColor;
+        console.log(bg);
+
+        console.log(p.style.color);
+        
+        //changing color attribute value
+        p.style.color = 'red';
+        console.log(p.style.color);
+
+        //adding new style attribute
+        p.style.fontStyle = 'italic';
+        
+        console.log(p.style);
+        console.log(p);
+    </script>
     
 </body>
 </html>
