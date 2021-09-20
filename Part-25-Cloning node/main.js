@@ -16,10 +16,9 @@ console.log(document.body) //it is not a part of the document
 //to make duplicateNode as a part of the document, it must be appended in any element
 //here, appending in div element
 // var newParentNode = document.getElementById("myDiv");
-// newParentNode.append(duplicateNode); 
+// newParentNode.append(duplicateNode);
 // newParentNode.appendChild(duplicateNode); //same as append
 // console.log(newParentNode);
 
 //to check if duplicateNode is a part of the document or not
 // console.log(document.body) //Now it is a part of the document
-

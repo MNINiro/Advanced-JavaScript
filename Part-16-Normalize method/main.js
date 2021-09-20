@@ -17,10 +17,7 @@ targetNode.appendChild(document.createTextNode("students "));
 //it is creating 3 text nodes. to make it one, we have to normalize the targetNode()
 console.log(targetNode.childNodes);
 
-//above 3 text nodes become 1 after normalize with enter key 
+//above 3 text nodes become 1 after normalize with enter key
 // (check w/o commenting previous line)
 targetNode.normalize();
 console.log(targetNode.childNodes);
-
-
-

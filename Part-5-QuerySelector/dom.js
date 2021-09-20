@@ -70,12 +70,12 @@ console.log(r5);
 document.write(r5)
 
 //Length method
-var ln = document.querySelectorAll(".geek").length; 
+var ln = document.querySelectorAll(".geek").length;
 console.log("No of geek: ",ln);
 document.write(ln);
 
 //Alternate method
-var data = document.querySelectorAll(".geek"); 
+var data = document.querySelectorAll(".geek");
 var ln = data.length;
 console.log(ln);
 console.log(data);

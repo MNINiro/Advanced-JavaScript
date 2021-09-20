@@ -25,4 +25,3 @@ var newElement = document.createElement("h4");
 newElement.textContent="This is heading 4";
 targetElement.insertAdjacentElement('afterend',newElement);
 console.log(parentNode);
-

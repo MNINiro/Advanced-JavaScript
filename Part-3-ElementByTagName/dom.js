@@ -12,11 +12,11 @@ var result3 = document.getElementsByTagName("p");
 console.log(result3)
 
 //Ex-4
-var result4 = document.getElementsByTagName("h1"); 
+var result4 = document.getElementsByTagName("h1");
 console.log(result4)
 
 //Ex-5
-var result5 = document.getElementsByTagName("div"); 
+var result5 = document.getElementsByTagName("div");
 console.log(result5)
 
 //Ex-6
@@ -53,7 +53,3 @@ for (let i=0; i<len1; i++){
     document.write(res,'<br>')
     console.log(res,'<br>');
 }
-
-
-    
-

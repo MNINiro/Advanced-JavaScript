@@ -16,6 +16,3 @@ var refNode = document.getElementById("myUL");
 
 refNode.outerHTML = "<p> It's a paragraph which is replasing existing ul element</p>";
 console.log(parentNode);
-
-
-

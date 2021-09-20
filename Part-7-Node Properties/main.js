@@ -47,4 +47,3 @@ document.write('Original: ',txt1,'<br>');
 
 var txt1 = document.getElementById("myID1").firstChild.nodeValue = "It's a line"
 document.write('Changed: ',txt1);
-

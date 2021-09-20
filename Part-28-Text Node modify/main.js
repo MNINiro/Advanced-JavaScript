@@ -3,7 +3,7 @@
 var textNode = document.getElementById("p1");
 var ln = textNode.firstChild.length; //must maintain tree structure
 //Alternate way
-// var ln = textNode.childNodes[0].length  
+// var ln = textNode.childNodes[0].length
 console.log(ln);
 
 //Ex-2-Data property

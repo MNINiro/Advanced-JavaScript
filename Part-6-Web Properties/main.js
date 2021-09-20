@@ -10,7 +10,6 @@ console.log(document.documentElement);
 console.log(document.head);
 console.log(document.body);
 console.log(document.timeline);
-
 console.log(document.styleSheets);
 console.log(document.visibilityState);
 console.log(document.scripts);

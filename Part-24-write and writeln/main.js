@@ -9,5 +9,3 @@ document.write("<pre>")
 document.writeln("Hello-1")
 document.writeln("Hello-2")
 document.write("</pre>")
-
-

@@ -19,7 +19,7 @@ console.log(r3.childNodes);
 ln = r3.childNodes.length
 //Alternate way using loop
 for(let i=0; i<ln; i++){
-    document.write(r3.childNodes[i].textContent);  
+    document.write(r3.childNodes[i].textContent);
     console.log(r3.childNodes[i]);
 }
 
@@ -31,12 +31,12 @@ console.log(r4.children);
 
 len = r4.children.length
 for(let i=0; i<len; i++){
-    document.write(r4.children[i].textContent,br);  
-    console.log(r4.children[i]);  
+    document.write(r4.children[i].textContent,br);
+    console.log(r4.children[i]);
 }
 
 //Ex-6-Replacing textContent
 var r5 = document.getElementById("bd");
-document.write(r5.children[1].textContent,'=');  
+document.write(r5.children[1].textContent,'=');
 r5.children[1].textContent = 'Hello'
-document.write(r5.children[1].textContent);  
+document.write(r5.children[1].textContent);

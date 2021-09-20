@@ -5,9 +5,9 @@ If the given child is a reference to an existing node in the
 document, insertBefore() moves it from its current position
 to the new position.
 
-If referenceNode is null, the newNode is inserted at the end 
+If referenceNode is null, the newNode is inserted at the end
 of the list of child node
-*/ 
+*/
 
 // Ex-1-Inserting a new node
 // Structure: parentNode.insertBefore(newNode, referenceNode)
