@@ -3,8 +3,8 @@ br = '<br>'
 //Ex-1-Attribute properties- name, value
 var r1 = document.getElementById("myID");
 
-document.write(r1.attributes[0].nodeName,' = '); // showing first attributes name
-document.write(r1.attributes[0].nodeValue,br); // showing first attributes value
+document.write(r1.attributes[0].nodeName,' = '); // showing first attributes name (id)
+document.write(r1.attributes[0].nodeValue,br); // showing first attributes value (myID)
 
 //in one line
 document.write(r1.attributes[1].nodeName,' = ',r1.attributes[1].nodeValue,br); // showing second attributes name and value

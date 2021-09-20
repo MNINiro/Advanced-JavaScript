@@ -1,0 +1,29 @@
+#myDiv{
+    padding-top: 15px;
+    padding-left: 10px;    
+}
+
+#L1,#L2,#L3{
+    padding-bottom: 10px;
+    font-size: 14px;
+    float: left;
+}
+
+#myTxt{
+    margin-left: 31px;
+}
+
+#myCls{
+    margin-left: 34px;
+}
+
+#myDept{
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+#btn{
+    display: flex;
+    margin:0 auto;
+    /* align-items:center; */
+}

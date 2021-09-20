@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Event Flow</title>   
+    <link rel="stylesheet" href="/Part-47-DOM Event object/style.css"> 
+</head>
+<body>
+    <h3>Event object</h3>
+    <p id="myP">Click</p>
+   
+    <h3>Target vs Current Target</h3>
+
+    <div id="one" data-name="1"> 1
+        <div id="two" data-name="2"> 2
+            <div id="three" data-name="3"> 3
+                <div id="four" data-name="4"> 4                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Part-47-DOM Event object/main.js"></script>
+</body>
+</html>
