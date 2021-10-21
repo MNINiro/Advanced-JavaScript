@@ -1,10 +1,10 @@
 // Ex-1
-// function myfun(){
-//     console.log("Inside function");
-// }
-// console.log("Start");
-// myfun();
-// console.log("End");
+function myfun(){
+    console.log("Inside function");
+}
+console.log("Start");
+myfun();
+console.log("End");
 
 
 // Ex-2
@@ -89,7 +89,7 @@
 /*  ===================================================================
     Ex-4.3-Refactor using promise to resolve callback hell issue
     ==================================================================*/
-
+/*
 console.log("Start");
 
 function getName(name){
@@ -118,7 +118,7 @@ function getDuration(name){
         },1000)
     })
 }
-/*
+
 getName('Niro')
 .then(nm => getHobbis(nm))
 .then(hobby => console.log(hobby))
@@ -133,23 +133,23 @@ getName('Niro')
 })
 
 console.log("End");
-/*
+*/
 
 /*  ===================================================================
     Ex-4.4-Async and await function on previous function (commented consumable part)
     ==================================================================*/
 
-async function showHobby(){
-    try{                                    //here, try catch can be used
-        const nm = await getName('MNI')
-        const hobby = await getHobbis(nm)
-        console.log(hobby);
-    }catch{
-        console.log("Could not be able to fatch hobbies")
-    }finally{
-        console.log('Its finally statement')
-    }
-}
-showHobby();
-console.log("End");
+// async function showHobby(){
+//     try{                                    //here, try catch can be used
+//         const nm = await getName('MNI')
+//         const hobby = await getHobbis(nm)
+//         console.log(hobby);
+//     }catch{
+//         console.log("Could not be able to fatch hobbies")
+//     }finally{
+//         console.log('Its finally statement')
+//     }
+// }
+// showHobby();
+// console.log("End");
 
